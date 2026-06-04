@@ -60,6 +60,7 @@ bool Game::Update()
 	if (GetAsyncKeyState('R') & 0x1)
 		Reset();
 
+
 	ball.Update();
 	CheckCollision();
 	return true;
